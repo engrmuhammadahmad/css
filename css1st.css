@@ -1,0 +1,9 @@
+body{
+    background-color:aquamarine;
+    background-image:url("Logo.png");
+    background-size:cover;
+}
+
+h1{
+    color: brown;
+}

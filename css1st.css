@@ -1,9 +1,21 @@
 body{
-    background-color:aquamarine;
+    /*background-color:aquamarine;*/
     background-image:url("Logo.png");
     background-size:cover;
 }
 
 h1{
     color: brown;
+}
+
+h2{
+    color:blue
+}
+
+.p1{
+    color:bisque;
+}
+
+.p2{
+    color:blanchedalmond;
 }

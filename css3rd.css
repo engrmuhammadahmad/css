@@ -1,0 +1,89 @@
+/* CSS Variables */
+:root {
+    --primary: #e94560;
+    --dark: #1a1a2e;
+    --light: #ffffff;
+    --gray: #f4f4f4;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--gray);
+}
+
+/* Services Section */
+.services {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: var(--dark);
+}
+
+/* Flexbox Container */
+.services-container {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+/* Cards */
+.card {
+    background-color: var(--light);
+    flex: 1;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+
+    /* Center content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Icon */
+.icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+/* Heading */
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: var(--dark);
+}
+
+/* Description */
+.card p {
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Button */
+.btn {
+    text-decoration: none;
+    background-color: var(--primary);
+    color: var(--light);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+.btn:hover {
+    background-color: var(--dark);
+}
